@@ -20,8 +20,8 @@ function Main() {
   const location = useLocation(); // Get the current route location
 
   const handleClearLocalStorage = () => {
-    localStorage.clear();
-    window.location.reload(); // Clear all data in local storage
+    localStorage.clear(); // Clear all data in local storage
+    window.location.href = "/"; // Navigate to the homepage
   };
 
   return (
